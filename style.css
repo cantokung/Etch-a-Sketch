@@ -1,0 +1,31 @@
+
+
+
+.flexContainer{
+    border: 4px solid red;
+    height: 400px;
+    width: 400px;
+    /*display: flex;
+    justify-content: center*/
+    margin: auto;
+
+    display: flex;
+    flex-direction: column; /* Stack rows vertically */
+    justify-content: center; /* Center rows vertically */
+    align-items: center; /* Center rows horizontally */
+    border: 4px solid red;
+    height: 400px;
+    width: 400px;
+    margin: auto; /* This will center the flexContainer if the body has text-align: center */
+}
+
+.column {
+    flex: 1; /* Distribute space evenly across columns */
+   
+    aspect-ratio: 1; /* Make the width and height the same */
+  }
+.row{
+    display: flex;
+    width: 100%; /* Make the row fill the flexContainer */
+}
+
